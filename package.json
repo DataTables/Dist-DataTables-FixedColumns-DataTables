@@ -3,7 +3,7 @@
     "version": "3.2.2",
     "description": "FixedColumns for DataTables ",
     "files": [
-        "css/fixedColumns.dataTables.css"
+        "css/**/*.css"
     ],
     "style": "css/fixedColumns.dataTables.css",
     "keywords": [
