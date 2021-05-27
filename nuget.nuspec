@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-fixedcolumns-dt</id>
-    <version>3.3.1</version>
-    <description>FixedColumns for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>fixedcolumns DataTables jQuery table DataTables</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-FixedColumns-DataTables.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-fixedcolumns" version="3.3.1"/>
-      <dependency id="datatables.net-dt" version="1.10.15"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/fixedcolumns.datatables.js" target="content\Scripts"/>
-    <file src="js/fixedcolumns.datatables.min.js" target="content\Scripts"/>
-    <file src="css/fixedcolumns.datatables.css" target="content\Content"/>
-    <file src="css/fixedcolumns.datatables.min.css" target="content\Content"/>
-    <file src="js/fixedcolumns.datatables.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/fixedcolumns.datatables.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/fixedcolumns.datatables.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/fixedcolumns.datatables.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>3.3.2</version>
+        <id>datatables.net-fixedcolumns-dt</id>
+        <description>This is FixedColumns for DataTables with styling for [DataTables](https://datatables.net/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-FixedColumns-DataTables.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>FixedColumns   Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-fixedcolumns" version=">=3.3.2"/>
+            <dependency id="datatables.net-dt" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/fixedColumns.dataTables.js" target="content\Scripts"/>
+        <file src="js/fixedColumns.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/fixedColumns.dataTables.min.js" target="content\Scripts"/>
+        <file src="js/fixedColumns.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/fixedColumns.dataTables.css" target="content\Content"/>
+        <file src="css/fixedColumns.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/fixedColumns.dataTables.min.css" target="content\Content"/>
+        <file src="css/fixedColumns.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/fixedColumns.dataTables.d.ts" target="content\Scripts"/>
+        <file src="types/fixedColumns.dataTables.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

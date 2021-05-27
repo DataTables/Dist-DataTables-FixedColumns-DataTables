@@ -1,34 +1,45 @@
 {
     "name": "datatables.net-fixedcolumns-dt",
+    "description": "FixedColumns for DataTables with styling for [DataTables](https://datatables.net/)",
+    "main": "js/fixedColumns.dataTables.js",
+    "style": "css/fixedColumns.dataTables.css",
     "version": "3.3.2",
-    "description": "FixedColumns for DataTables ",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/fixedColumns.dataTables.css",
     "keywords": [
-        "fixed columns",
-        "DataTables",
+        "FixedColumns",
+                "Datatables",
         "jQuery",
         "table",
-        "DataTables"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-fixedcolumns": ">=3.3.2",
+        "datatables.net-dt": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-dt": "^1.10.15",
-        "datatables.net-fixedcolumns": "3.3.2"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-FixedColumns-DataTables.git"
-    },
-    "main": "js/fixedColumns.dataTables.js"
+    }
 }
