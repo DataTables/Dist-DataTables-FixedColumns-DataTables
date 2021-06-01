@@ -3,6 +3,7 @@
     "description": "FixedColumns for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/fixedColumns.dataTables.js",
     "style": "css/fixedColumns.dataTables.css",
+    "types": "./types/fixedColumns.dataTables.d.ts",
     "version": "3.3.2",
     "files": [
         "css/**/*.css",
