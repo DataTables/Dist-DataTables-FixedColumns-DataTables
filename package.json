@@ -4,14 +4,14 @@
     "main": "js/fixedColumns.dataTables.js",
     "style": "css/fixedColumns.dataTables.css",
     "types": "./types/fixedColumns.dataTables.d.ts",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "FixedColumns",
-                "Datatables",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
