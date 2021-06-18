@@ -19,7 +19,7 @@
     ],
     "dependencies": {
         "datatables.net-fixedcolumns": ">=3.3.3",
-        "datatables.net-dt": ">=1.10.26-dev",
+        "datatables.net-dt": ">=1.10.25",
         "jquery": ">=1.7"
     },
     "moduleType": [
