@@ -5,7 +5,7 @@
     if (typeof define === 'function' && define.amd) {
         // AMD
         define(['jquery', 'datatables.net-dt', 'datatables.net-fixedcolumns'], function ($) {
-            return factory($, window, document);
+            return factory($);
         });
     }
     else if (typeof exports === 'object') {
@@ -22,14 +22,14 @@
                 // eslint-disable-next-line @typescript-eslint/no-var-requires
                 require('datatables.net-fixedcolumns')(root, $);
             }
-            return factory($, root, root.document);
+            return factory($);
         };
     }
     else {
         // Browser
-        factory(jQuery, window, document);
+        factory(jQuery);
     }
-}(function ($, window, document) {
+}(function ($) {
     'use strict';
     var dataTable = $.fn.dataTable;
     return dataTable.fixedColumns;
