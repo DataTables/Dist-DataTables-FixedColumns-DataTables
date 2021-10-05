@@ -7,19 +7,20 @@
     "version": "4.0.0",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "FixedColumns",
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=3.3.3",
-        "datatables.net-dt": ">=1.10.25",
+        "datatables.net-fixedcolumns": ">=4.0.0",
+        "datatables.net-dt": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
