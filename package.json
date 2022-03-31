@@ -12,15 +12,15 @@
     ],
     "keywords": [
         "FixedColumns",
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=4.0.0",
-        "datatables.net-dt": ">=1.11.3",
+        "datatables.net-fixedcolumns": ">=4.0.2",
+        "datatables.net-dt": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
