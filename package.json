@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.dataTables.js",
     "module": "js/fixedColumns.dataTables.mjs",
     "style": "css/fixedColumns.dataTables.css",
-    "types": "./types/fixedColumns.dataTables.d.ts",
+    "types": "./types/types.d.ts",
     "version": "4.1.0",
     "files": [
         "css/**/*.css",
