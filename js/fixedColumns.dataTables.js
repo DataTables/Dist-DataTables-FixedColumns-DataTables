@@ -28,10 +28,9 @@
 				require('datatables.net-dt')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.FixedColumns ) {
 				require('datatables.net-fixedcolumns')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
