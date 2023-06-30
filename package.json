@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.dataTables.js",
     "module": "js/fixedColumns.dataTables.mjs",
     "style": "css/fixedColumns.dataTables.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/fixedColumns.dataTables.d.ts",
     "version": "4.2.2",
     "files": [
         "css/**/*.css",
@@ -14,15 +14,15 @@
     ],
     "keywords": [
         "FixedColumns",
-        "Datatables",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=4.1.0",
-        "datatables.net-dt": ">=1.12.1",
+        "datatables.net-fixedcolumns": ">=4.2.2",
+        "datatables.net-dt": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
