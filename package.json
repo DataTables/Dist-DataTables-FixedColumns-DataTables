@@ -5,7 +5,7 @@
     "module": "js/fixedColumns.dataTables.mjs",
     "style": "css/fixedColumns.dataTables.css",
     "types": "./types/fixedColumns.dataTables.d.ts",
-    "version": "4.2.2",
+    "version": "4.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "FixedColumns",
-                "Datatables",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
