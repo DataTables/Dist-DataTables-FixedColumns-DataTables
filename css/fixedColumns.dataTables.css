@@ -12,8 +12,8 @@ table.dataTable tbody tr > .dtfc-fixed-end {
   z-index: 1;
   background-color: white;
 }
-table.dataTable tbody tr > .dtfc-fixed-left::after,
-table.dataTable tbody tr > .dtfc-fixed-right::after {
+table.dataTable tr > .dtfc-fixed-left::after,
+table.dataTable tr > .dtfc-fixed-right::after {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -22,21 +22,21 @@ table.dataTable tbody tr > .dtfc-fixed-right::after {
   content: "";
   pointer-events: none;
 }
-table.dataTable tbody tr > .dtfc-fixed-left::after {
+table.dataTable tr > .dtfc-fixed-left::after {
   right: 0;
   transform: translateX(100%);
 }
-table.dataTable tbody tr > .dtfc-fixed-right::after {
+table.dataTable tr > .dtfc-fixed-right::after {
   left: 0;
   transform: translateX(-80%);
 }
-table.dataTable.dtfc-scrolling-left tbody > tr > .dtfc-fixed-left::after {
+table.dataTable.dtfc-scrolling-left tr > .dtfc-fixed-left::after {
   box-shadow: inset 10px 0 8px -8px rgba(0, 0, 0, 0.2);
 }
-table.dataTable.dtfc-scrolling-right tbody > tr > .dtfc-fixed-right::after {
+table.dataTable.dtfc-scrolling-right tr > .dtfc-fixed-right::after {
   box-shadow: inset -10px 0 8px -8px rgba(0, 0, 0, 0.2);
 }
-table.dataTable.dtfc-scrolling-right tbody > tr > .dtfc-fixed-right + .dtfc-fixed-right::after {
+table.dataTable.dtfc-scrolling-right tr > .dtfc-fixed-right + .dtfc-fixed-right::after {
   box-shadow: none;
 }
 
