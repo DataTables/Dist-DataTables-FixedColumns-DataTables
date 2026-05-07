@@ -5,7 +5,7 @@
     "module": "js/fixedColumns.dataTables.mjs",
     "style": "css/fixedColumns.dataTables.css",
     "types": "./types/fixedColumns.dataTables.d.ts",
-    "version": "5.0.5",
+    "version": "6.0.0-beta.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -15,26 +15,14 @@
     "keywords": [
         "FixedColumns",
         "Datatables",
-        "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "5.0.5",
-        "datatables.net-dt": "^2",
-        "jquery": ">=1.7"
+        "datatables.net-fixedcolumns": "6.0.0-beta.1",
+        "datatables.net-dt": "3.0.0-0"
     },
-    "moduleType": [
-        "globals",
-        "amd",
-        "node"
-    ],
-    "ignore": [
-        "composer.json",
-        "datatables.json",
-        "package.json"
-    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
@@ -44,6 +32,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DataTables/Dist-DataTables-FixedColumns-DataTables.git"
+        "url": "git+https://github.com/DataTables/FixedColumns.git"
     }
 }
