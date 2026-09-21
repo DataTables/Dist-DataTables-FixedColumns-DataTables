@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-fixedcolumns-dt",
-    "description": "FixedColumns for DataTables with styling for [DataTables](https://datatables.net/)",
+    "description": "FixedColumns for DataTables with styling for DataTables",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-FixedColumns-DataTables"
