@@ -24,7 +24,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-fixedcolumns": "6.0.0",
-        "datatables.net/datatables.net-dt": "^3"
+        "datatables.net/datatables.net-fixedcolumns": "6.1.0",
+        "datatables.net/datatables.net-dt": "^3.1"
     }
 }
