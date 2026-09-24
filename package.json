@@ -36,9 +36,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedColumns.dataTables.d.ts",
+            "style": "./css/fixedColumns.dataTables.css",
             "import": "./js/fixedColumns.dataTables.mjs",
-            "default": "./js/fixedColumns.dataTables.mjs",
-            "require": "./js/fixedColumns.dataTables.js"
+            "require": "./js/fixedColumns.dataTables.js",
+            "default": "./js/fixedColumns.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
