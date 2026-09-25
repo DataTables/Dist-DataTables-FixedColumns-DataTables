@@ -5,7 +5,7 @@
     "module": "./js/fixedColumns.dataTables.mjs",
     "style": "./css/fixedColumns.dataTables.css",
     "types": "./types/fixedColumns.dataTables.d.ts",
-    "version": "6.1.0",
+    "version": "6.1.1",
     "files": [
         "js",
         "css",
@@ -19,7 +19,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "6.1.0",
+        "datatables.net-fixedcolumns": "6.1.1",
         "datatables.net-dt": "^3.1"
     },
     "author": {
